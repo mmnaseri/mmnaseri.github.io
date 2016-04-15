@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="Site">
+<head>
+    <meta charset="UTF-8">
+    <title>Milad Naseri</title>
+    <!-- bower:css -->
+    <!-- endbower -->
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/angular-ui/build/angular-ui.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <!-- bower:js -->
+    <script type='application/javascript' src='lib/jquery/dist/jquery.min.js'></script>
+    <script type='application/javascript' src='lib/angular/angular.min.js'></script>
+    <script type='application/javascript' src='lib/angular-route/angular-route.min.js'></script>
+    <script type='application/javascript' src='lib/angular-ui-router/release/angular-ui-router.min.js'></script>
+    <script type='application/javascript' src='lib/bootstrap/dist/js/bootstrap.min.js'></script>
+    <script type='application/javascript' src='lib/angular-bootstrap/ui-bootstrap-tpls.min.js'></script>
+    <!-- endbower -->
+    <script type="application/javascript" src="lib/angular-bootstrap/ui-bootstrap.min.js"></script>
+    <script type="application/javascript" src="lib/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script type="application/javascript" src="lib/angular-ui/build/angular-ui.min.js"></script>
+    <script type="application/javascript" src="lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script type="application/javascript" src="js/all.min.js"></script>
+    <script type="application/javascript" src="http://localhost:13001/livereload.js"></script>
+</head>
+<body>
+<div class="page-header">
+    <h1>Welcome</h1>
+</div>
+<nav>
+    <ul>
+        <li><a ui-sref="about">About me</a></li>
+        <li><a ui-sref="projects">Projects</a></li>
+        <li><a ui-sref="contact">Contact me</a></li>
+    </ul>
+</nav>
+<div ui-view="" class="site-content container"></div>
+<footer class="site-footer container">
+</footer>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.page-header {
+
+  & {
+    display: block;
+    padding: 50px 10px 20px;
+    margin: 0;
+    background: #40adcc;
+    color: #ffffff;
+    border-bottom: none;
+  }
+
+  h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    margin: 0;
+    text-align: center;
+  }
+
+}

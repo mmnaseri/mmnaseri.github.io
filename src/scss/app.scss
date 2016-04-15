@@ -1,0 +1,16 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #f9f9f9;
+}
+
+.site-content {
+  padding-top: 10px;
+  min-height: 500px;
+  background: #ffffff;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+  box-shadow: 0 2px 3px 0 #000000;
+}
+
+@import "parts/header.scss";
+@import "parts/navigation.scss";
